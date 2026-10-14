@@ -1,0 +1,30 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass style.scss custom.css && postcss tailwind.css -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganicasiof/html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ganicasiof/html/issues"
+  },
+  "homepage": "https://github.com/ganicasiof/html#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "postcss-cli": "^12.0.0",
+    "sass": "^1.105.0",
+    "tailwindcss": "^4.3.3"
+  }
+}

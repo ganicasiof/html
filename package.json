@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.3.3"
+  },
+  "scripts": {
+    "build": "sass --no-source-map main.scss main.scss.css && postcss main.postcss.css -o main.css"
+  },
+  "devDependencies": {
+    "postcss-cli": "^12.0.0",
+    "sass": "^1.105.1"
+  }
+}
